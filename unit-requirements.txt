@@ -1,11 +1,2 @@
 setuptools
-wheel
-pyspark
-pyyaml
-pytest
-dbx
-mlflow
-delta-spark
-scikit-learn
-pandas
 
