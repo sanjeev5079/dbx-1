@@ -3,10 +3,11 @@ wheel
 pyspark
 pyyaml
 pytest
+coverage
 pytest-cov
 dbx
 mlflow
 delta-spark
 scikit-learn
 pandas
-coverage
+
