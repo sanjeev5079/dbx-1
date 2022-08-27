@@ -42,10 +42,10 @@ jobs:
 
       - name: Jobless deployment (files only upload)
         run: |
-          dbx deploy --job=dbx-1-sample-etl-2.0 --files-only
+          dbx deploy --job=dbx-1-sample-etl-2.0 
 
-      - name: Run the job in a jobless fashion
-        run: |
-          dbx launch --job=dbx-1-sample-etl-2.0 --as-run-submit --trace
+      #- name: Run the job in a jobless fashion
+      #  run: |
+      #    dbx launch --job=dbx-1-sample-etl-2.0 --as-run-submit --trace
 
 
