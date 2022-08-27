@@ -15,7 +15,7 @@ environments:
   default:
     jobs:
       ##################################################################
-      # this is an example job with single ETL task based on 2.0 API  #
+      # this is an example job with single ETL task based on 2.0 API  ##
       #################################################################
       - name: "dbx-1-sample-etl-2.0"
         <<: *basic-static-cluster
